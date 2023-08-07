@@ -1,0 +1,177 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+body {
+background-color:rgb(226, 226, 226);
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 130%;
+}
+h1 {
+  background-color: transparent;
+  color: #efeaec;
+  text-align: center;
+  transition-duration: 0.5s;
+  display: flex;
+  justify-content: center;
+}
+img{
+transform: scale(1);
+transition-duration: 0.5s;
+  }
+  img:hover{
+transform: scale(1.1);
+transition-duration: 0.5s;
+  }
+  .padres{
+    height: 100vh;
+  }
+  .margen{
+margin-left: 3%;
+margin-right: 3%;
+margin-top: 1%;
+}
+.subtitulos{
+background-color: #000000;
+color: #efeaec ;
+padding: 0.7%;
+text-align: center;
+align-items: center;
+transition-duration: 1s;
+}
+.subtitulos:hover{
+    transform: scale(1.15);
+    transition-duration: 1s;
+}
+.links{
+ color: #866b7a;
+ transition: background-color 1s;
+}
+.links:hover {
+color: silver;
+}
+  .head{
+    color:#866b7a;
+font-weight: 800;
+  } 
+  .table {
+    align-items: center;
+  }
+  .listas {
+    align-items: center;
+  }
+  .links1{
+  color: #a7a7a7;
+  display: block;
+  padding: 13px;
+  text-decoration: none;
+  transition-duration: 0.5s;
+}
+  .links1:hover{
+    color: white;
+    background-color: #0f0f0f;
+    transition-duration: 0.5s;
+  }
+  #introduction{
+    height: 100vh;
+  background-image:url(img/imagen.jpg);
+  background-repeat:no-repeat ;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+  #boton {
+    border-radius: 10px;
+    padding-bottom: 5px;
+  }
+  
+  #barra{
+    list-style-type:none;
+    background-color: #000000;
+    padding: 0;
+    display: flex;
+    justify-content: end;
+
+  }
+  #barra li{
+    display: inline;
+  }
+  #juntar{
+    background-color: #866b7a;
+  }
+  #hab{
+  margin-top: 2%;
+}
+#edu table{
+align-items: center;
+justify-content: center;
+display: flex;
+}
+#iconos{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  height: 95%;
+}
+#contacto{
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+#per p{
+  text-align: center;
+}
+#per{
+height: 40vh;
+}
+/*MEDIA*/
+/*xs sm*/
+@media screen and (max-width: 767px) {
+  
+
+a{
+  font-size: 13px;
+}
+#barra{
+  justify-content: center;
+  
+  }
+  #iconos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    height: 90%;
+    
+  }
+  img{
+    width: 100px;
+    transition-duration: 0.5s;
+    
+      }
+#bootstrap{
+  width: 30%;
+}
+  }
+/*md*/
+@media screen and (min-width: 768px) and (max-width: 991px) {
+ 
+
+
+
+
+
+  
+  }
+  /* lg xl xxl */
+  @media screen and (min-width: 992px){
+  
+    
+
+
+
+
+
+
+  }
